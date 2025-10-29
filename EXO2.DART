@@ -8,5 +8,7 @@ void main() {
     print("Votre âge est : $age ans");
   } on FormatException catch (e) {
     print("Erreur : le format saisi n'est pas valide !");
+  } finally {
+    print("Fin d'opération");
   }
 }
